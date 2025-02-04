@@ -1,0 +1,97 @@
+/* Reset default margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the content vertically and horizontally on the page */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Full viewport height */
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+}
+
+/* Styling for the header (Contact sales) */
+.head {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for the paragraph under the header */
+.para {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Styling for the two columns (First Name and Last Name) */
+.two-columns {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+/* Ensure each column takes equal width inside the .two-columns container */
+.two-columns div {
+    flex: 1;
+    /* This makes each div inside the flex container take up equal space */
+}
+
+/* Styling for form labels */
+label {
+    display: block;
+    /* Make the label a block element so it takes up full width */
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: #333;
+}
+
+/* Styling for text input fields, email input, phone input, and text area */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: calc(100% - 12px);
+    /* Ensure the input takes up the full width minus padding */
+}
+
+/* Make the text area taller for better visibility */
+textarea {
+    height: 120px;
+}
+
+/* Styling for the checkbox container */
+.checkbox-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the checkbox itself */
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    /* Slightly increase the size of the checkbox */
+}
+
+/* Styling for the submit button */
+button {
+    background-color: #1d4d85;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}

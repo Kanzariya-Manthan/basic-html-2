@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+
+
+.adduser {
+    background-color: #1d4d85;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 88%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 99%;
+    border-collapse: collapse;
+    height: 80vh;
+}
+
+.para {
+    padding: 5px;
+}
+
+.head {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+th {
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(198, 197, 197);
+}
+
+td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 2px solid rgb(192, 191, 191);
+    opacity: 0.5;
+}
+
+.name {
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.btn {
+    margin-left: auto;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+    text-align: right;
+}

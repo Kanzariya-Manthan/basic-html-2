@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Price {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Head1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.para1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 80px;
+    /* background-color: red; */
+    justify-content: center;
+    gap: 150px;
+}
+
+.container1 {
+    /* height: auto; */
+    width: 301px;
+}
+
+.container2 {
+    /* height: auto; */
+    width: 301px;
+}
+
+
+.container3 {
+    /* height: auto; */
+    width: 301px;
+}
+
+.scont {
+    display: flex;
+    margin-top: 20px;
+}
+
+.rupee {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.month {
+    margin-top: 33px;
+}
+
+.annual {
+    font-size: smaller;
+}
+
+.btn {
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.Everything {
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.list li {
+    margin-top: 10px;
+}
+
+.tick {
+    border-radius: 50%;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 2px;
+    margin-right: 10px;
+}
