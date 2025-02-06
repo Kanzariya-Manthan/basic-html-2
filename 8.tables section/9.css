@@ -11,7 +11,7 @@ body {
 
 
 .adduser {
-    background-color: #1d4d85;
+    background-color: rgb(29, 77, 133);
     color: white;
     padding: 15px;
     border: none;
@@ -20,6 +20,11 @@ body {
     margin-left: 88%;
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+.adduser:hover {
+    text-decoration: underline;
+    box-shadow: 5px 10px 16px rgba(29, 77, 133, 0.3);
 }
 
 table {
@@ -65,4 +70,5 @@ td {
     font-weight: bold;
     background-color: white;
     text-align: right;
+    cursor: pointer;
 }

@@ -86,11 +86,12 @@ hr {
     margin-left: 18px;
     margin-top: 18px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* Styling for the job title or position */
 .designa {
-    margin-left: 80px;
+    margin-left: 66px;
     color: rgb(117, 117, 117);
 }
 

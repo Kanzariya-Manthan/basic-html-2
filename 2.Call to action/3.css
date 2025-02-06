@@ -36,7 +36,11 @@
     color: rgb(74, 74, 208);
     margin-left: 80px;
     margin-top: 50px;
+    cursor: pointer;
+}
 
+.link:hover {
+    text-decoration: underline;
 }
 
 .heading {
@@ -48,7 +52,6 @@
     margin-left: 80px;
     margin-top: 10px;
     margin-right: 10px;
-
 }
 
 .btn {
@@ -60,4 +63,9 @@
     border-radius: 5px;
     border: none;
     width: 150px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 2px 5px 16px rgba(125, 122, 120, 0.6);
 }

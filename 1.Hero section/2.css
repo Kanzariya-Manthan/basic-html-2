@@ -39,16 +39,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 100px; */
     font-weight: bold;
     font-size: 1.3rem;
     margin-top: 0;
+    cursor: pointer;
+    padding: 5px;
+}
+
+ul li:hover {
+    text-decoration: underline;
+    border-radius: 5px;
+    width: auto;
 }
 
 .Login {
     color: red;
     margin-left: auto;
     font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.Login:hover {
+    text-decoration: underline;
+
 }
 
 .Heading1 {
@@ -82,6 +95,11 @@
 
 .rdme {
     color: blue;
+    cursor: pointer;
+}
+
+.rdme:hover {
+    text-decoration: underline;
 }
 
 .para {
@@ -104,6 +122,7 @@
     font-size: 16px;
     font-weight: bold;
     margin-left: 650px;
+    cursor: pointer;
 }
 
 .btn2 {
@@ -114,4 +133,15 @@
     border: none;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    box-shadow: 3px 5px 16px rgba(57, 57, 248, 0.3);
+    text-decoration: underline;
+}
+
+.btn2:hover {
+    box-shadow: 2px 5px 16px rgba(255, 255, 255, 0.6);
+    text-decoration: underline;
 }
